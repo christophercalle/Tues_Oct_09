@@ -1,0 +1,56 @@
+body{
+  font-family: monospace;
+}
+
+h1{
+    font-size: 400%;
+    color: #555555;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+}
+.pendingTask{
+  color: rgba(255, 0, 0, 0.73);
+  display: flex;
+  flex-direction: column;
+}
+.completedTask{
+  color: rgba(36, 36, 36, 0.67);
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteButton{
+  position: absolute;
+  top: 4%;
+  right: 2px;
+  height: 2em;
+  border-style: solid;
+  border-radius: 4%;
+  background-color: rgba(255, 0, 0, 0.63);
+  color: white;
+}
+#addButton{
+  background-color: rgb(229, 229, 229);
+  width: 100px;
+  height: 30px;
+  border-radius: 8%;
+}
+#TextBox{
+  height: 30px;
+  width: 200px;
+  border-style: solid;
+  border-width: thin;
+}
+.pendingTaskDiv{
+  position: relative;
+  display: flex;
+  background-color: rgb(244, 244, 244);
+  width: 30%;
+  height: 4%;
+}
